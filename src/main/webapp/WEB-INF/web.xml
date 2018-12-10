@@ -19,6 +19,8 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
     <display-name>Learn EJB3 and Struts2</display-name>
+
+
     <filter>
         <filter-name>struts2</filter-name>
         <filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
@@ -27,6 +29,9 @@
             <param-value>com.lq</param-value>
         </init-param>
     </filter>
+
+
+
     <filter>
         <filter-name>struts-cleanup</filter-name>
         <filter-class>org.apache.struts2.dispatcher.ActionContextCleanUp</filter-class>
