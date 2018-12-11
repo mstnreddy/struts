@@ -29,7 +29,7 @@ public class FindUser {
     }
 
 
-    private int id;
+    private Long id;
     private String errorMessage;
     private User user;
 
@@ -49,11 +49,11 @@ public class FindUser {
         this.errorMessage = errorMessage;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
